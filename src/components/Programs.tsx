@@ -2,19 +2,24 @@ import { ArrowRight } from 'lucide-react';
 
 const programs = [
   {
-    title: 'Web Development',
+    title: 'Full Stack Development',
     description: 'Master HTML, CSS, JavaScript, React, and modern web technologies to build stunning responsive websites.',
-    duration: '12 Weeks',
+    duration: '1 Months',
   },
   {
-    title: 'Backend Development',
-    description: 'Learn Node.js, databases, APIs, and server-side programming to power modern applications.',
-    duration: '10 Weeks',
+    title: 'Android Development',
+    description: 'Learn Java And Kotlin.',
+    duration: '1 Months',
   },
   {
-    title: 'Internship Program',
-    description: 'Get real-world experience working on live projects with guidance from industry mentors.',
-    duration: '3-6 Months',
+    title: 'Python Programming',
+    description: 'Learn Python from scratch and build real-world applications.',
+    duration: '1 Months',
+  },
+  {
+    title: 'Java Programming',
+    description: 'Learn Java from basics to advanced concepts with hands-on projects.',
+    duration: '1 Months',
   },
 ];
 
@@ -49,7 +54,7 @@ export function Programs() {
                 {program.description}
               </p>
               <a 
-                href="#" 
+                href="https://forms.gle/SCmMKoUL56SDscW17" 
                 className="inline-flex items-center gap-2 text-emerald-500 font-medium group-hover:gap-3 transition-all"
               >
                 Learn More

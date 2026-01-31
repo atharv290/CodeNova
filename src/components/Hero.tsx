@@ -21,8 +21,9 @@ export function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </button>
               <button className="px-8 py-3 border-2 border-emerald-500 text-emerald-500 rounded-xl font-medium hover:bg-emerald-50 transition-colors flex items-center justify-center gap-2">
-                <ShieldCheck className="w-5 h-5" />
-                Verify Certificate
+                <a href="https://www.linkedin.com/company/codenova-tech-solutions/"><ShieldCheck className="w-7 h-5"/>
+                  LinkIn</a>
+                
               </button>
             </div>
           </div>
