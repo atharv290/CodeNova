@@ -20,6 +20,16 @@ const programs = [
     title: 'Java Programming',
     description: 'Learn Java from basics to advanced concepts with hands-on projects.',
     duration: '1 Months',
+  }, 
+  {
+    title: 'Data Science',
+    description: 'Learn Python, R, and machine learning to analyze and interpret data.',
+    duration: '1 Months',
+  },
+   {
+    title: 'Artificial Intelligence',
+    description: 'Learn AI fundamentals and build intelligent applications.',
+    duration: '1 Months',
   },
 ];
 
@@ -54,7 +64,7 @@ export function Programs() {
                 {program.description}
               </p>
               <a 
-                href="https://forms.gle/SCmMKoUL56SDscW17" 
+                href="https://forms.gle/bfj2bjnL6wDjQKFD7" 
                 className="inline-flex items-center gap-2 text-emerald-500 font-medium group-hover:gap-3 transition-all"
               >
                 Learn More
